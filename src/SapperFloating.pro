@@ -38,7 +38,7 @@ win32:{
         #debug
     } else {
         #release
-        DESTDIR = $$_PRO_FILE_PWD_/../win32
+        DESTDIR = $$_PRO_FILE_PWD_/../release_win32
         QMAKE_POST_LINK += $$(QTDIR)/bin/windeployqt --qmldir $$(QTDIR)/qml $$DESTDIR $$escape_expand(\\n\\t)
     }
 }
