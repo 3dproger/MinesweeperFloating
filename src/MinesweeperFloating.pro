@@ -21,9 +21,11 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    SapperFloating_ru_RU.ts
+    MinesweeperFloating_ru_RU.ts
 CONFIG += lrelease
 CONFIG += embed_translations
+
+RC_FILE = rc.rc
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
